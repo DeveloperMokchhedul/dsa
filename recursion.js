@@ -73,12 +73,21 @@
 
 // 1-10 ar sum ber krar jonne recursion function
 
-function sum(n){
-    if (n==1) return 1
-    return n+sum(n-1)
+// function sum(n){
+//     if (n==1) return 1
+//     return n+sum(n-1)
+// }
+
+// console.log(sum(10));
+
+
+
+// find factorial number of n
+
+function fact(n){
+    if (n==1) return n
+    return n*fact(n-1)
 }
 
-console.log(sum(10));
-
-
+console.log(fact(5));
 
