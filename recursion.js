@@ -48,12 +48,37 @@
 // n theke 1 porjonto number print korte hbe
 
 
-function recursion(n){
-    if (n==0) return
-    console.log(n);
-    recursion(n-1);
+// function recursion(n){
+//     if (n==0) return
+//     console.log(n);
+//     recursion(n-1);
 
     
+// }
+
+// recursion(10)
+
+
+
+// function recursion(n){
+    
+//     if (n==0) return
+//     recursion(n-1);
+//     console.log(n);
+
+    
+// }
+
+// recursion(10)
+
+// 1-10 ar sum ber krar jonne recursion function
+
+function sum(n){
+    if (n==1) return 1
+    return n+sum(n-1)
 }
 
-recursion(10)
+console.log(sum(10));
+
+
+
